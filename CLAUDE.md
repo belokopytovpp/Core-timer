@@ -160,9 +160,20 @@ Siri и Enhanced недоступны.
 
 ## 7. Вне кода
 
-**GitHub:** репозиторий `belokopytovpp/Core-timer`, публичный, ветка `main`,
-пять файлов в корне: `index.html`, `apple-touch-icon.png`, `icon-512.png`,
-`og.png`, `site.webmanifest`.
+**GitHub:** репозиторий `belokopytovpp/Core-timer`, публичный, ветка `main`.
+
+Состав:
+
+- `index.html` — сам таймер, весь целиком в одном файле
+- `apple-touch-icon.png`, `icon-512.png`, `og.png`, `site.webmanifest` —
+  иконки, картинка предпросмотра, манифест
+- `CLAUDE.md` — этот файл
+- `tools/` — звуковая лаборатория и проверка громкости, см. `tools/README.md`
+- `versions/` — снимки v1–v4 до перехода на git, см. `versions/README.md`
+
+Netlify публикует корень целиком, поэтому `tools/` и `versions/` тоже
+оказываются на сайте. Вреда нет; лабораторию так даже удобнее открывать
+с телефона.
 
 **Netlify:** проект `core-timer-petr`, ID `db1d9b3b-f19e-497e-a98c-02a4bdde9616`,
 команда «Petr Belokopytov». Привязан к репозиторию, публикация автоматическая
